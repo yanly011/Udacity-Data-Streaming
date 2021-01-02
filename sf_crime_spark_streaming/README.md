@@ -24,7 +24,7 @@ Packages required:
    Run `kafka-console-consumer --bootstrap-server localhost:9092 --topic police.service.calls --from-beginning`
    
    Output looks like this:
-   <img src='sf_kafka_console_consumer_output.PNG'/>
+   <img src='consumer-console.jpg'/>
 
 5. Run consumer (NOTE : Apache Spark already has an integration with Kafka brokers, so we would not normally need a separate Kafka consumer):
    To run producer run `python consumer_server.py`
